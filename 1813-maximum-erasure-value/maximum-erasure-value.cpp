@@ -17,7 +17,6 @@ public:
                     sum-=n[p1];
                     p1++;
                 }
-                //a=max(sum,a);
             }
             else{
                 p2++;
@@ -28,5 +27,4 @@ public:
         }
         return a;
     }
-    //[4,2,4,5,6]
 };
