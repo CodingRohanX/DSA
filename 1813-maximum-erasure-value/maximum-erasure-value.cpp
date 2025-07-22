@@ -1,7 +1,6 @@
 class Solution {
 public:
     int maximumUniqueSubarray(vector<int>& n) {
-        //return 0;
         if(n.size()==1) return n[0];
         int p1=0,p2=0,sum=n[0],a=INT_MIN;
         map<int,int> m;
