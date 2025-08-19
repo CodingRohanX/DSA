@@ -6,9 +6,7 @@ public:
         while(p1<n.size()){
             if(n[p1]==0){
                 p2=p1+1;
-                while(p2<n.size() && n[p2]==0){
-                    p2++;
-                }
+                while(p2<n.size() && n[p2]==0) p2++;
                 n1=p2-p1;
                 ans+=(n1*(n1+1))/2;
                 p1=p2-1;
