@@ -7,13 +7,8 @@ public:
         for(int i=0;i<n.size()-2;i++){
             for(int j=i+1;j<n.size()-1;j++){
                 for(int k=j+1;k<n.size();k++){
-                    if(n[i]+n[j]>n[k]){
-                        a++;
-                        //break;
-                    }
-                    else /* if(n[i]+n[j]>pow(n[k],2)) */{
-                        break;
-                    }
+                    if(n[i]+n[j]>n[k]) a++;
+                    else break;
                 }
             }
         }
